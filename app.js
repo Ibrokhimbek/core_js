@@ -8,15 +8,26 @@ const age = 29;
 // let hasHobbies = true;
 const hasHobiies = true;
 
-function summarizeUser(userName, userAge, userHasHobbies) {
-  return (
-    "Name is " +
+// function summarizeUser(userName, userAge, userHasHobbies) {
+//   return (
+//     "Name is " +
+//     userName +
+//     ", age is " +
+//     userAge +
+//     " and the user has hobbies: " +
+//     userHasHobbies
+//   );
+// }
+
+const summarizeUser = (userName, userAge, userHasHobbies) => {
+    return (
+        "Name is " +
     userName +
     ", age is " +
     userAge +
     " and the user has hobbies: " +
     userHasHobbies
-  );
+    )
 }
 
 console.log(summarizeUser(name, age, "playing fotball"));
